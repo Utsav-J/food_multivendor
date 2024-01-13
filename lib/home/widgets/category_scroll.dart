@@ -14,7 +14,7 @@ class CategoryScroll extends StatelessWidget {
     // final controller = Get.put(CategoryController());
     return Container(
       height: 80.h,
-      margin: EdgeInsets.symmetric(vertical: 10.h, horizontal: 5.w),
+      margin: EdgeInsets.symmetric(vertical: 10.h),
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: categories

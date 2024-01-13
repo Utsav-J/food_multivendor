@@ -38,7 +38,7 @@ class CategoryWidget extends StatelessWidget {
                 backgroundImage: NetworkImage(category["imageUrl"]),
                 backgroundColor:
                     controller.getSelectedCategory == category['_id']
-                        ? kSecondary
+                        ? kSecondary.withOpacity(0.75)
                         : Colors.white,
               ),
               Text(category["title"])

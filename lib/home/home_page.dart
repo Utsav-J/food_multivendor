@@ -4,6 +4,7 @@ import 'package:food_multivendor/common/custom_app_bar.dart';
 import 'package:food_multivendor/common/custom_container.dart';
 import 'package:food_multivendor/constants/constants.dart';
 import 'package:food_multivendor/home/widgets/category_scroll.dart';
+import 'package:food_multivendor/home/widgets/reusable_heading.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -19,8 +20,13 @@ class HomePage extends StatelessWidget {
       body: SafeArea(
         child: CustomContainer(
           containerContent: Container(
+            margin: EdgeInsets.only(left: 10.w),
             child: Column(
-              children: [CategoryScroll()],
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                CategoryScroll(),
+                ReusableHeading(text: "Browse Restaurants", fontSize: 16)
+              ],
             ),
           ),
         ),
