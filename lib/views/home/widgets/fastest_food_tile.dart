@@ -4,8 +4,8 @@ import 'package:food_multivendor/common/app_bar_style.dart';
 import 'package:food_multivendor/common/reusable_text.dart';
 import 'package:food_multivendor/constants/constants.dart';
 
-class SomethingNewTile extends StatelessWidget {
-  const SomethingNewTile(
+class FastestFoodTile extends StatelessWidget {
+  const FastestFoodTile(
       {super.key,
       required this.image,
       required this.time,
