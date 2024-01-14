@@ -8,6 +8,9 @@ import 'package:food_multivendor/views/home/all_nearby_restaurants.dart';
 import 'package:food_multivendor/views/home/fastest_food_closest.dart';
 import 'package:food_multivendor/views/home/try_something_new.dart';
 import 'package:food_multivendor/views/home/widgets/category_scroll.dart';
+import 'package:food_multivendor/views/home/widgets/fastest_food_list.dart';
+import 'package:food_multivendor/views/home/widgets/nearby_tiles_list.dart';
+import 'package:food_multivendor/views/home/widgets/something_new_list.dart';
 import 'package:get/get.dart';
 
 class HomePage extends StatelessWidget {
@@ -38,6 +41,7 @@ class HomePage extends StatelessWidget {
                         duration: Duration(milliseconds: 200));
                   },
                 ),
+                NearbyTilesList(),
                 ReusableHeading(
                   text: "Try Something New",
                   fontSize: 16,
@@ -47,6 +51,7 @@ class HomePage extends StatelessWidget {
                         duration: Duration(milliseconds: 200));
                   },
                 ),
+                SomethingNewTiles(),
                 ReusableHeading(
                   text: "Fastest Foods Closest",
                   fontSize: 16,
@@ -56,6 +61,7 @@ class HomePage extends StatelessWidget {
                         duration: Duration(milliseconds: 200));
                   },
                 ),
+                FastestFoodTiles()
               ],
             ),
           ),
