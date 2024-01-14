@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:food_multivendor/categories/all_categories.dart';
 import 'package:food_multivendor/constants/constants.dart';
 import 'package:food_multivendor/controllers/categor_ontroller.dart';
+import 'package:food_multivendor/views/categories/all_categories.dart';
 import 'package:get/get.dart';
 
 class CategoryWidget extends StatelessWidget {

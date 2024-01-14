@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-// import 'package:food_multivendor/categories/category_page.dart';
-import 'package:food_multivendor/categories/widgets/category_tile.dart';
 import 'package:food_multivendor/common/background_container.dart';
 import 'package:food_multivendor/common/reusable_text.dart';
 import 'package:food_multivendor/constants/uidata.dart';
-// import 'package:get/get.dart';
+import 'package:food_multivendor/views/categories/widgets/category_tile.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AllCategoryPage extends StatelessWidget {

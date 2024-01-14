@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_vector_icons/flutter_vector_icons.dart';
-import 'package:food_multivendor/cart/cart_page.dart';
 import 'package:food_multivendor/constants/constants.dart';
 import 'package:food_multivendor/controllers/entry_controller.dart';
-import 'package:food_multivendor/home/home_page.dart';
-import 'package:food_multivendor/profile/profile_page.dart';
 import 'package:food_multivendor/search/search_page.dart';
+import 'package:food_multivendor/views/cart/cart_page.dart';
+import 'package:food_multivendor/views/home/home_page.dart';
+import 'package:food_multivendor/views/profile/profile_page.dart';
 
 import 'package:get/get.dart';
 
