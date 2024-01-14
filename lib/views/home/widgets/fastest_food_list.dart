@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:food_multivendor/constants/constants.dart';
 import 'package:food_multivendor/constants/uidata.dart';
 import 'package:food_multivendor/views/home/widgets/fastest_food_tile.dart';
 
