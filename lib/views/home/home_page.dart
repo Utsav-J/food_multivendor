@@ -51,7 +51,7 @@ class HomePage extends StatelessWidget {
                         duration: Duration(milliseconds: 200));
                   },
                 ),
-                SomethingNewTiles(),
+                SomethingNewTilesList(),
                 ReusableHeading(
                   text: "Fastest Foods Closest",
                   fontSize: 16,

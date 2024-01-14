@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:food_multivendor/constants/constants.dart';
 import 'package:food_multivendor/constants/uidata.dart';
-import 'package:food_multivendor/views/home/widgets/restaurant_tile_widget.dart';
+import 'package:food_multivendor/views/home/widgets/nearby_restaurant_tile.dart';
 
 class NearbyTilesList extends StatelessWidget {
   const NearbyTilesList({super.key});
@@ -11,7 +11,7 @@ class NearbyTilesList extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: kOffWhite,
-      height: 225.h,
+      height: 215.h,
       child: ListView(
         scrollDirection: Axis.horizontal,
         children: List.generate(

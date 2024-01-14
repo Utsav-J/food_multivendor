@@ -32,7 +32,7 @@ class RestaurantTileWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 8.w, vertical: 5.w),
         child: Container(
           width: width * 0.75,
-          height: 192.h,
+          height: 185.h,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(12.r),
             color: kLightWhite,
@@ -95,19 +95,20 @@ class RestaurantTileWidget extends StatelessWidget {
                       children: [
                         ReusableText(
                           text: "Delivery Time",
-                          style: appBarStyle(12.sp, kDark, FontWeight.w500),
+                          style: appBarStyle(12.sp, kGray, FontWeight.w500),
                         ),
                         ReusableText(
                           text: time,
-                          style: appBarStyle(11.sp, kDark, FontWeight.w400),
+                          style: appBarStyle(12.sp, kGray, FontWeight.w500),
                         ),
                       ],
                     ),
                     Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         RatingBarIndicator(
                           itemBuilder: (context, index) {
-                            return Icon(
+                            return const Icon(
                               Icons.star,
                               color: kSecondary,
                             );
